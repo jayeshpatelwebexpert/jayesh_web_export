@@ -628,6 +628,7 @@ header .main-header .menu ul li a {
     background: #171717;
     left: -100%;
     transition: all 0.5s;
+    z-index:1;
 }
 
 .mobile-menu .mobile-menu-header {
