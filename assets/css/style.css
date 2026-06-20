@@ -601,3 +601,19 @@ header .main-header .menu ul li a {
 body.open-menu .mobile-menu {
     left: 0;
 }
+.contact-buttons {
+    position: fixed;
+    left: 30px;
+    top: 40%;
+}
+
+.contact-buttons a.contact-btn {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 30px 0;
+}
+
+.contact-buttons a.contact-btn img {
+    width: 100%;
+}
