@@ -1,0 +1,546 @@
+body{
+    font-family: "Afacad Flux", sans-serif;
+    color: #fff;
+    background-color: #101010;
+    font-size:26px;
+}
+section {
+    padding: 0 0 100px 0;
+}
+
+h1,h2,h3,h4,h5,h6{    
+    font-family: "Ubuntu", sans-serif;
+}
+h2{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+.section-title {
+    text-align: center;
+    margin: 0 0 50px;
+}
+
+.section-title span {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-style: Italic;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    display: block;
+}
+
+.section-title h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.section-title p {
+    font-family: 'Afacad Flux';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+}
+
+header {
+    padding: 30px 0;
+    /* border-bottom: dotted 2px #ddd; */
+}
+
+header .main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .main-header .logo{
+}
+
+header .main-header .logo a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+}
+
+header .main-header .menu {}
+
+header .main-header .menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+header .main-header .menu ul li {
+    display: inline-block;
+}
+
+header .main-header .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 0 15px;
+    font-size: 24px;
+}
+
+.cta a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    background: #000;
+    border-radius: 100px;
+    font-size: 22px;
+    border: solid 1px #000;
+    transition: all 0.5s;
+}
+.cta a:hover {
+    background: transparent;
+    border: solid 1px #fff;
+}
+.hero-section {
+    padding: 100px 0;
+}
+
+.hero-section .hero-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100%; */
+    width: 83.333333%;
+    margin: 0 auto;
+}
+.hero-section .hero-card .hero-box {
+    text-align: center;
+}
+
+.hero-section .hero-card .hero-box h1 {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-section .hero-card .hero-box p {
+    font-family: 'Afacad Flux';
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+    margin: 0 0 30px;
+}
+
+.hero-section .hero-card .hero-box a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    background: #000;
+    border-radius: 100px;
+    font-size: 22px;
+    border: solid 1px #000;
+    transition: all 0.5s;
+}
+
+.hero-section .hero-card .hero-box a:hover {
+    background: transparent;
+    border: solid 1px #fff;
+}
+
+.state-section {}
+
+.state-section .state-box {
+    border: solid 1px #fff;
+    padding: 60px 40px;
+    border-radius: 100px;
+}
+
+.state-section .state-box .state-card {
+    text-align: center;
+}
+
+.state-section .state-box .state-card span {
+    display: block;
+    margin: 0;
+    font-family: 'Afacad Flux';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+}
+
+.state-section .state-box .state-card h2 {
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+.about-section {
+    padding:  0 0 100px 0;
+}
+.about-section .about-img {
+    margin: 0 0 30px;
+}
+
+.about-section .about-img img {
+    width: 100%;
+}
+
+.about-section .about-link {
+    text-align: center;
+}
+
+.about-section .about-link a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    background: #000;
+    border-radius: 100px;
+    font-size: 22px;
+    margin: 0 auto;
+    border: solid 1px #000;
+    transition: all 0.5s;
+}
+
+.about-section .about-link a:hover {
+    background: transparent;
+    border: solid 1px #fff;
+}
+
+.services-section {}
+
+.services-section .services-card {
+    padding: 30px;
+    margin: 0 0 30px;
+    border-radius: 40px;
+    background-color: #171717;
+    column-height: 370px;
+}
+
+.services-section .services-card .services-icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 30px;
+}
+
+.services-section .services-card .services-icon img {}
+
+.services-section .services-card .services-text {
+    text-align: center;
+}
+
+.services-section .services-card .services-text h3 {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.services-section .services-card .services-text p {
+    font-family: 'Afacad Flux';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0;
+}
+
+.services-section .services-card .services-text h3 span {
+    display: block;
+}
+
+.expertise-section {}
+
+.expertise-section .expertise-list {}
+
+.expertise-section .expertise-list .expertise-line-1 {
+    text-align: center;
+}
+
+.expertise-section .expertise-list .expertise-line-1 a {
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    background: transparent;
+    border-radius: 100px;
+    font-size: 22px;
+    margin: 9px 5px;
+    border: solid 1px #fff;
+    transition: all 0.5s;
+}
+
+.expertise-section .expertise-list .expertise-line-1 a:hover {
+    background: #000;
+    border-color: #000;
+}
+
+
+.featured-card {
+    position: relative;
+    /* border-radius: 38px; */
+    /* overflow: hidden; */
+    margin: 0 0 20px;
+}
+
+.featured-card .featured-img {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 38px;
+    position: relative;
+}
+.featured-card .featured-img:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #00000073;
+}
+
+.featured-card .featured-img img {
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+}
+
+.featured-card .featured-link {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.featured-card .featured-link a {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background: #000000E5;
+    padding: 25px 20px;
+    border-radius: 0 0 30px 30px;
+}
+
+.featured-section {}
+
+.featured-section .featured-text {
+    margin: 50px 0 0;
+}
+
+.featured-section .featured-text p {
+    font-family: 'Afacad Flux';
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.featured-section .featured-text span {
+    font-family: 'Afacad Flux';
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    display: block;
+    border: solid 1px #fff;
+    padding: 35px 50px;
+    border-radius: 100px;
+}
+
+.marquee {
+  overflow: hidden;
+  display: flex;
+  background-color: #171717;
+  padding: 20px 0;
+}
+
+.marquee h3{
+  font-size: 3em;
+  white-space: nowrap;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.testimonial-card {
+    padding: 40px;
+    background: #171717;
+    border-radius: 40px;
+    min-height: 587px;
+}
+
+.testimonial-card .testimonial-round {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 100px;
+    background: #000;
+    margin: 0 0 20px;
+}
+
+.testimonial-card .testimonial-round span {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Ubuntu';
+    display: block;
+}
+
+.testimonial-card .testimonial-text {}
+
+.testimonial-card .testimonial-text p {
+    font-family: 'Afacad Flux';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+}
+
+.testimonial-card .testimonial-text h3 {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 40px 0 0;
+}
+
+.testimonial-card .testimonial-text span {
+    font-family: 'Afacad Flux';
+    font-weight: 400;
+    font-style: Italic;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    display: block;
+    margin: 5px 0 0;
+}
+
+.contact-card {
+    text-align: center;
+}
+
+.contact-card h3 {
+    text-align: center;
+}
+
+.contact-card .expertise-list {}
+
+.contact-card .expertise-list .expertise-line-1 {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.contact-card .expertise-list .expertise-line-1 a {
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    background: transparent;
+    border-radius: 100px;
+    font-size: 22px;
+    margin: 9px 5px;
+    border: solid 1px #fff;
+    transition: all 0.5s;
+}
+
+.contact-card h4 {font-family: 'Afacad Flux';font-weight: 400;font-size: 26px;line-height: 48px;letter-spacing: 0%;text-align: center;color: #fff;margin: 0;}
+
+.contact-card h4 a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    background: #000;
+    border-radius: 100px;
+    font-size: 22px;
+    margin: 0 0 0 20px;
+    border: solid 1px #000;
+    transition: all 0.5s;
+}
+
+.footer-section {
+    padding: 20px 0;
+    border-top: 1px solid #161616;
+    background: #101010;
+}
+
+.footer-section .footer-card {
+    text-align: center;
+}
+
+.footer-section .footer-card p {
+    margin: 0;
+    font-family: 'Afacad Flux';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #fff;
+}
+
+.line-box {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+.line-box span {
+    width: 13%;
+    display: block;
+    height: 100%;
+    border-right: solid 1px #161616;
+    border-left: solid 1px #161616;
+}
