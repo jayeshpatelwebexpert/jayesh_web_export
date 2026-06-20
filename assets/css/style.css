@@ -6,6 +6,7 @@ body{
 }
 section {
     padding: 0 0 100px 0;
+    position: relative;
 }
 
 h1,h2,h3,h4,h5,h6{    
@@ -18,7 +19,9 @@ h2{
     line-height: 68px;
     letter-spacing: 0%;
     text-align: center;
-} 
+}
+
+
 
 .section-title {
     text-align: center;
@@ -533,7 +536,7 @@ header .main-header .menu ul li a {
     color: #fff;
 }
 
-.line-box {
+/* .line-box {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -552,8 +555,71 @@ header .main-header .menu ul li a {
     height: 100%;
     border-right: solid 1px #161616;
     border-left: solid 1px #161616;
+} */
+
+/* Background Lines */
+.line-box{
+    position:fixed;
+    top:0;
+    left:50%;
+    transform:translateX(-50%);
+    width:1200px;
+    height:100vh;
+    display:flex;
+    justify-content:space-between;
+    pointer-events:none;
+    z-index:0;
 }
 
+.line-box span{
+    position:relative;
+    width:1px;
+    height:100%;
+    background:rgba(255,255,255,0.08);
+    overflow:hidden;
+}
+
+/* Moving Light */
+.line-box span::before{
+    content:"";
+    position:absolute;
+    top:-150px;
+    left:0;
+    width:100%;
+    height:150px;
+    background:linear-gradient(
+        to bottom,
+        transparent,
+        rgba(255,255,255,0.8),
+        transparent
+    );
+    animation:lineAnimation 8s linear infinite;
+}
+
+.line-box span:nth-child(2)::before{
+    animation-delay:1s;
+}
+
+.line-box span:nth-child(3)::before{
+    animation-delay:2s;
+}
+
+.line-box span:nth-child(4)::before{
+    animation-delay:3s;
+}
+
+.line-box span:nth-child(5)::before{
+    animation-delay:4s;
+}
+
+@keyframes lineAnimation{
+    0%{
+        top:-150px;
+    }
+    100%{
+        top:100%;
+    }
+}
 .mobile-menu {
     position: fixed;
     top:0;
