@@ -62,6 +62,7 @@
 .featured-section .featured-text span {
     font-size: 20px;
     line-height: 30px;
+    padding: 25px;
 }
 
 .services-section .services-card .services-text p {
