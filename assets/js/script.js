@@ -20,3 +20,11 @@ function Marquee(selector, speed) {
 //1 class selector for marquee
 //2 marquee speed 0.2
 window.addEventListener('load', Marquee('.marquee', 0.2))
+
+
+$(".cta .mobile-icon").click(function(){
+  $("body").addClass("open-menu");
+});
+$(".mobile-menu .mobile-menu-header span").click(function(){
+  $("body").removeClass("open-menu");
+});
