@@ -673,6 +673,7 @@ body.open-menu .mobile-menu {
     position: fixed;
     left: 30px;
     top: 40%;
+    z-index:1;
 }
 
 .contact-buttons a.contact-btn {
